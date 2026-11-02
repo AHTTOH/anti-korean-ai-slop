@@ -59,6 +59,14 @@ Claude Code 외에 Agent Skills 형식을 지원하는 에이전트에서도 활
 
 세부 실행 지침과 사례는 [SKILL.md](./SKILL.md)에 있습니다.
 
+## 문체 분석 참고 자료
+
+스킬의 실행 규칙과 별도로, 대화에서 수집한 언어적 관찰·반례·외부 연구를 [docs/](./docs/README.md)에 기록했습니다. **참고 자료는 금칙어 사전이 아니며, SKILL.md를 대체하거나 자동으로 실행되지 않습니다.**
+
+- [문체 패턴 관찰](./docs/style-patterns.md): 범용 동사, 동작 은유, '갈래·축·층위' 등의 분류어, 상투적인 전개 및 제목
+- [교정 사례집](./docs/casebook.md): 자연스러운 용법, 불필요한 문장 삭제, 일괄 치환의 오류
+- [연구 및 검증 현황](./docs/research-notes.md): 실제 연구·사용자 반응, 확인된 사실과 검증되지 않은 주장
+
 ## 기여
 
 새로운 문체 패턴, 잘못된 교정 사례, 더 자연스러운 대안을 [Issues](https://github.com/AHTTOH/anti-korean-ai-slop/issues)나 Pull Request로 제안할 수 있습니다.
