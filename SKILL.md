@@ -28,6 +28,26 @@ This is a **style skill**, not an AI-authorship detector, factual reviewer, or u
 
 Judge these dimensions together. No single phrase, frequency threshold, or checkbox establishes that writing is AI-generated.
 
+### 0. 설명·교육 맥락에서의 한자어 회피
+
+가장 먼저 확인할 점이다. 글의 목적이 설명, 강의, 교육, 교안이라고 인식되면 모델은 "쉽게 풀어 써야 한다"는 쪽으로 기울어, 한국어에 흔한 두 글자 한자어(`변경`, `분포`, `작동`, `조절`, `분리`, `전달`, `작성` 등)를 쓰지 않고 일상 동사로 풀어 쓰는 경향이 있다. 보고서, 교안, 매뉴얼 어느 문서에서나 나타난다. 1~3번 항목의 어색한 결합 상당수가 이 경향과 겹친다. 이는 관찰이며 생성 원인으로 확정한 것은 아니다.
+
+| 풀어 쓴 표현 | 해당 분야에서 쓰는 표현 |
+| --- | --- |
+| 둘을 섞어 쓴다 | 조절한다 / 병행한다 |
+| 제대로 움직이는지 확인한다 | 작동하는지 확인한다 |
+| 숫자를 움직여 본다 | 입력값을 변경한다 |
+| 결과가 어떻게 흩어지는지 본다 | 결과의 분포를 확인한다 |
+| 주소를 건넨다 | URL을 전달한다 |
+| 지시서로 남겨 둔다 | 지시서로 작성한다 / 저장한다 |
+
+교정 기준은 한자어를 늘리는 것이 아니라 **그 분야에서 실제로 쓰는 용어를 쓰는 것**이다.
+
+- 독자가 모를 용어는 한자어를 피해 풀어 쓰지 말고 한 번 정의한다. 쉬운 설명은 용어를 바꾸지 않고도 가능하다.
+- 반대 방향의 과잉(`고도화`, `체계화`, `제고` 같은 불필요한 한자어, 명사 나열)도 같은 문제다.
+- 원문이 이미 일상 동사를 자연스럽게 쓰고 있다면(`재료를 섞는다`, `나사를 조인다`) 바꾸지 않는다.
+- 요약문이나 정리 문장에서는 본문에 없는 새 표현을 만들지 말고 본문 용어를 그대로 쓴다.
+
 ### 1. Lexical choice and Korean collocations
 
 Inspect the relationship between verbs and their objects, modifiers and nouns, and abstractions and actions. Ask whether a Korean writer would naturally pair these expressions in this document type.
